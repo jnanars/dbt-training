@@ -4,5 +4,5 @@
     )
 }}
 
-select * 
+select *  from
 {{ source('GLOBALMART', 'CUSTOMER') }}
